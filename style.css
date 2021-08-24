@@ -76,34 +76,61 @@ p {
 
 .menu {
     list-style: none;
-    font-family: sans-serif;
-    position: absolute;
-    top: 10px;
+    position: fixed;
+    top: 0px;
     right: 30px;
     z-index: 10;
     cursor: pointer;
+    background-color: burlywood;
+    width: 100%;
+    margin-top: 0px;
 }
 
 .links {
-    float: left;
-    color: #fff;
-    padding-top: 5px;
-    padding-left: 9px;
-    padding-right: 9px;
-    padding-bottom: 5px;
+    padding-left: 33px;
+    padding-right: 25px;
     font-family: fantasy;
-    font-size: 20px;
+    font-size: 40px;
+    display: inline;
 }
 
 .links:hover {
     background-color: coral;
 }
+
 html {
     scroll-behavior: smooth;
 }
+
 .article:hover {
-    color:brown;
+    color: brown;
 }
+
 a {
     text-decoration: none;
+    color: chocolate;
+    text-shadow: 2px 2px grey;
+}
+
+#writings a {
+    text-decoration: underline !important;
+    color: cadetblue !important;
+    text-shadow: none !important;
+
+}
+
+#contact {
+    background-color: blueviolet;
+}
+
+.contact_1 h3 {
+    display: inline;
+}
+
+.contact_1 a {
+    color: bisque;
+    text-shadow: none;
+}
+#contact iframe {
+    width: 100%;
 }
